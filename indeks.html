@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="no">
+    <head>
+        <title>Forside</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <header>
+            <h1>Oversikt over treningsøkter i desember 2024</h1>
+        </header>
+        <main>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Treningsdato</th>
+                        <th>Type økt</th>
+                        <th>Varighet</th>
+                        <th>Kommentar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2. des</td>
+                        <td>Løpetime</td>
+                        <td>60min</td>
+                        <td>Ute</td>
+                    </tr>
+                    <tr>
+                        <td>4.des</td>
+                        <td>Styrke</td>
+                        <td>20min</td>
+                        <td>Fulgte treningsprogram</td>
+                    </tr>
+                    <tr>
+                        <td>10.des</td>
+                        <td>Styrke</td>
+                        <td>45min</td>
+                        <td>Hjemme</td>
+                    </tr>
+                    <tr>
+                        <td>12.des</td>
+                        <td>Løpetime</td>
+                        <td>30min</td>
+                        <td>Fulgte treningsprogram</td>
+                    </tr>
+                    <tr>
+                        <td>18.des</td>
+                        <td>Løpetime</td>
+                        <td>30min</td>
+                        <td>Ute</td>
+                    </tr>
+                    <tr>
+                        <td>21.des</td>
+                        <td>Yoga</td>
+                        <td>60min</td>
+                        <td>Hjemme</td>
+                    </tr>
+                    <tr>
+                        <td>23.des</td>
+                        <td>Styrke</td>
+                        <td>30min</td>
+                        <td>Hjemme</td>
+                    </tr>
+                    <tr>
+                        <td>29.des</td>
+                        <td>Løpetime</td>
+                        <td>30min</td>
+                        <td>Ute</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" id="sisteLinje">Min. trent til sammen: 560</td>
+                    </tr>
+                </tbody>
+            
+            </table>
+        </main>
+    </body>
+
+    <style>
+        main{
+            display: flex;
+            justify-content: center;
+        }
+        table{
+            color: #333333;
+            border: solid darkmagenta 2px;
+        }
+        tr:nth-child(even){
+            background-color: rgb(255, 103, 255);
+        }
+        tr:nth-child(odd){
+            background-color: rgb(255, 156, 255);
+        }
+        th{
+            border: 10px 20px;
+            padding: 10px 20px;
+            border: solid darkmagenta 2px;
+            background-color: rgb(213, 145, 252);
+        }
+        td{
+            border: solid darkmagenta 2px;
+            border: 10px 20px;
+            padding: 10px 20px;
+        }
+        #sisteLinje{
+            display: flex;
+            text-align: center;
+        }
+        tr:hover{
+            background-color: #e0e0e0;
+        }
+        @media screen {
+            table {
+                width: 100%;
+            }
+        }
+    </style>
